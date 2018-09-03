@@ -12,7 +12,8 @@ import {HeaderComponent} from './components/header/header.component';
 import {NewsComponent} from './components/news/news.component';
 import {HomeComponent} from './components/home/home.component';
 import {FormsModule} from '@angular/forms';
-import { TodolistComponent } from './components/todolist/todolist.component';
+import {TodolistComponent} from './components/todolist/todolist.component';
+import {StorageService} from './services/storage.service';
 /*自定义的模块*/
 
 
@@ -27,7 +28,7 @@ import { TodolistComponent } from './components/todolist/todolist.component';
     BrowserModule,
     FormsModule,
   ],
-  providers: [], /*定义的服务  回头放在这个里面*/
+  providers: [StorageService], /*定义的服务  回头放在这个里面*/
   bootstrap: [AppComponent]   /*默认启动那个组件*/
 })
 

@@ -1,0 +1,33 @@
+<h2>{{msg}}</h2>
+<br/>
+<button (click)="getMsg()">执行方法 获取msg</button>
+<br/>
+<br/>
+{{username}}
+<button (click)="setName('李四')">执行方法 修改username</button>
+<br/>
+<br/>
+<hr>
+<!--条件判断语句-->
+<div *ngIf="flag">flag=true的情况下面显示</div>
+<br/>
+<br/>
+<div *ngIf="!flag">flag=false的情况下面显示</div>
+
+<button (click)="flag = !flag">执行行内事件响应 修改flag</button> <br>
+<button (click)="toggleFlag()">执行方法 修改flag</button>
+
+<hr>
+
+<input type="text" (keyup)="keyupFn($event)" value="键盘弹起"/>
+<br/>
+<button (keyup)="run($event)">事件对象</button>
+<br/>
+<br/>
+<!--双向数据绑定-->
+
+<input type="text" [(ngModel)]="search"/>
+{{search}}
+<br/>
+<br/>
+<button (click)="getSearch()">获取搜索框里面的内容</button>

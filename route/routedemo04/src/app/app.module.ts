@@ -3,20 +3,20 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
-import {NewsComponent} from './news/news.component';
 import {AppRoutingModule} from './app-routing.module';
-import {UserComponent} from './user/user.component';
-import { NewscontentComponent } from './newscontent/newscontent.component';
-import { ShoplistComponent } from './shoplist/shoplist.component';
+import {ShoplistComponent} from './shoplist/shoplist.component';
+import {ShopComponent} from './shop/shop.component';
+import {WelcomeComponent} from './welcome/welcome.component';
+import {ShopcateComponent} from './shopcate/shopcate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NewsComponent,
-    UserComponent,
-    NewscontentComponent,
-    ShoplistComponent
+    ShoplistComponent,
+    ShopComponent,
+    WelcomeComponent,
+    ShopcateComponent
   ],
   imports: [
     BrowserModule,

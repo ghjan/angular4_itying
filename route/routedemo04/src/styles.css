@@ -1,4 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
-.active{
-  color:blue;
+
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+.header{
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  background: #000;
+}
+
+.header a{
+  color: #fff;
+}
+.header a.active{
+  color:red;
+}
+
+
+
+
+
+/**/
+
+.con{
+  display: flex;
+}
+
+.con .left{
+
+  width: 200px;
+
+  background: #fffeee;
+  height: 300px;
+  border-right: 1px solid #000;
+
+}
+
+.con .left a{
+  display: block;
+  height: 44px;
+  text-align: center;
+
+}
+
+.con .right{
+
+  flex: 1;
+  height: 300px;
+
 }

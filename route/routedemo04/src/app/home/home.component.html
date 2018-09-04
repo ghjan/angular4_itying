@@ -2,3 +2,16 @@
   home works!
 </p>
 <button (click)="goNews()">点击跳转</button>
+
+<br/>
+<br/>
+<a routerLink="/shoplist" routerLinkActive="active">routerLink去商品列表页面</a>
+<br/>
+<a href="/shoplist?id=123">href去商品列表页面</a>
+
+<br/>
+<br/>
+<!--点击跳转(跳转路由get传值)-->
+<button (click)="goshop(111,1)">goshop(111,1)</button><br/>
+<button (click)="goshop(222,2)">goshop(222,2)</button><br/>
+<button (click)="goshop(333,3)">goshop(333,3)</button><br/>

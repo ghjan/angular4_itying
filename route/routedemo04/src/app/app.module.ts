@@ -7,6 +7,7 @@ import {NewsComponent} from './news/news.component';
 import {AppRoutingModule} from './app-routing.module';
 import {UserComponent} from './user/user.component';
 import { NewscontentComponent } from './newscontent/newscontent.component';
+import { ShoplistComponent } from './shoplist/shoplist.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NewscontentComponent } from './newscontent/newscontent.component';
     HomeComponent,
     NewsComponent,
     UserComponent,
-    NewscontentComponent
+    NewscontentComponent,
+    ShoplistComponent
   ],
   imports: [
     BrowserModule,

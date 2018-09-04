@@ -8,6 +8,7 @@ import {HomeComponent} from './home/home.component';
 import {NewsComponent} from './news/news.component';
 import {UserComponent} from './user/user.component';
 import {NewscontentComponent} from './newscontent/newscontent.component';
+import {ShoplistComponent} from './shoplist/shoplist.component';
 
 // 配置路由
 const routes: Routes = [
@@ -16,6 +17,8 @@ const routes: Routes = [
   {path: 'user', component: UserComponent},
   // 配置动态路由
   {path: 'newscontent/:aid', component: NewscontentComponent},
+
+  {path: 'shoplist', component: ShoplistComponent},
 
   // 匹配不到路由的时候加载的组件 或者跳转的路由
   {

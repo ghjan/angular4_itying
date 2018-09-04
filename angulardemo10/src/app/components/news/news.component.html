@@ -1,0 +1,32 @@
+<app-header [msg]="msg" (toparent)="requestData($event)"></app-header>
+<hr/>
+<h2>{{title}}-{{msg}}</h2>
+
+<!--<button (click)="requestData()">-->
+<!--请求数据requestData()-->
+<!--</button>-->
+<!--<br/>-->
+<!--<br/>-->
+<!--<button (click)="requestJsonpData(false)">-->
+<!--请求数据 jsonp-->
+<!--</button>-->
+<!--<br/>-->
+<!--<br/>-->
+<!--<button (click)="requestJsonpData(true)">-->
+<!--请求数据 jsonp localhost-->
+<!--</button>-->
+
+<!--<br>-->
+<!--<br>-->
+<!--<button (click)="postData()">-->
+<!--提交数据postData-->
+<!--</button>-->
+
+
+<ul>
+<li *ngFor="let item of list">
+
+
+{{item.title}}
+</li>
+</ul>

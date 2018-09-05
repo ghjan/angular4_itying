@@ -31,7 +31,7 @@ export class TodolistComponent implements OnInit {
     // alert(this.todo_name);  // 双向数据绑定， 可以拿到input框里面的值
     if (e.keyCode === 13) {
       /*每次增加的一个对象数据*/
-      const todo_item: TodoItem = new TodoItem(this.todo_name, 1);
+      const todo_item: TodoItem = new TodoItem(this.todo_name, 1, '', '');
 
       const todolist = this.storage.getItem('todolist');
 

@@ -31,6 +31,8 @@
   <li *ngFor="let item of list; let i=index">
     {{item}}-----
     <button (click)="deleteData(i)">删除-</button>
+    <item class="item-block" [item]="item"></item>
+
   </li>
 </ul>
 <h3>已经完成</h3>

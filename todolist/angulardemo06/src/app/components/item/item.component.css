@@ -1,0 +1,23 @@
+p {
+  margin: 2px 0;
+
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.domain {
+  color: #696969;
+  letter-spacing: 0.5px;
+}
+
+.item-details {
+  padding: 10px;
+}

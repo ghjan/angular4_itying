@@ -14,6 +14,7 @@ import {HomeComponent} from './components/home/home.component';
 import {FormsModule} from '@angular/forms';
 import {TodolistComponent} from './components/todolist/todolist.component';
 import {StorageService} from './services/storage.service';
+import {ItemComponent} from './components/item/item.component';
 /*自定义的模块*/
 
 
@@ -22,7 +23,7 @@ import {StorageService} from './services/storage.service';
 
 @NgModule({
   declarations: [/*引入当前项目运行的的组件  自定义组件都需要引入并且在这个里面配制*/
-    AppComponent, HeaderComponent, NewsComponent, HomeComponent, TodolistComponent
+    AppComponent, HeaderComponent, NewsComponent, HomeComponent, TodolistComponent, ItemComponent
   ],
   imports: [/*当前的项目依赖哪些模块*/
     BrowserModule,
